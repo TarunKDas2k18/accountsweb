@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccCreateCoppaAccount</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>35044043</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>AccCreateCoppaAccount</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-20888</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>26354583</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5570462</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>d3bcb2f7-9cc5-4844-8b27-f2f109b68162</testCaseGuid>
+</TestCaseEntity>

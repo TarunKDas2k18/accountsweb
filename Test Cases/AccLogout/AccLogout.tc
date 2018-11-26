@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccLogout</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>35044048</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>AccLogout</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-20893</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>26354588</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5570465</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>fa451413-6d45-40f9-bd25-616dfa03664a</testCaseGuid>
+</TestCaseEntity>

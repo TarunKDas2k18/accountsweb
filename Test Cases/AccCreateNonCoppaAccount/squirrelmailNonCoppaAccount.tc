@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>squirrelmailNonCoppaAccount</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>id</key>
+            <value>26354586</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>squirrelmailNonCoppaAccount</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5570463</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-20891</value>
+         </entry>
+         <entry>
+            <key>versionId</key>
+            <value>35044046</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>ee05d0e9-f589-4722-beca-6e541582f239</testCaseGuid>
+</TestCaseEntity>

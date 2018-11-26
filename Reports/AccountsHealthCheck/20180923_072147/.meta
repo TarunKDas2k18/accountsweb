@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180923_072147</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>0</key>
+            <value>{'name':'AccCreateNonCoppaAccount','attachmentIncluded':true,'id':71296310}</value>
+         </entry>
+         <entry>
+            <key>1</key>
+            <value>{'name':'squirrelmailNonCoppaAccount','attachmentIncluded':true,'id':71296311}</value>
+         </entry>
+         <entry>
+            <key>2</key>
+            <value>{'name':'AccCreateCoppaAccount','attachmentIncluded':true,'id':71296315}</value>
+         </entry>
+         <entry>
+            <key>3</key>
+            <value>{'name':'VerifyEscrowStatus','attachmentIncluded':true,'id':71296317}</value>
+         </entry>
+         <entry>
+            <key>4</key>
+            <value>{'name':'AccLoginValidLoginValidPwd','attachmentIncluded':true,'id':71296322}</value>
+         </entry>
+         <entry>
+            <key>5</key>
+            <value>{'name':'AccLogout','attachmentIncluded':true,'id':71296324}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20180923_072147</displayName>
+</ReportEntity>

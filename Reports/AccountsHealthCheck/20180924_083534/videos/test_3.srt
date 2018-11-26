@@ -1,0 +1,216 @@
+1
+00:00:00,546 --> 00:00:00,547
+1. openBrowser
+
+2
+00:00:04,551 --> 00:00:04,552
+5. maximizeWindow
+
+3
+00:00:05,709 --> 00:00:05,711
+9. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+4
+00:00:05,753 --> 00:00:05,754
+13. Statement - baseUrl = "https://webr12accounts.wizards.com/"
+
+5
+00:00:05,797 --> 00:00:05,798
+17. Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+6
+00:00:05,856 --> 00:00:05,858
+21. Statement - selenium.open("https://webr12accounts.wizards.com/")
+
+7
+00:00:06,356 --> 00:00:06,358
+25. waitForPageLoad
+
+8
+00:00:06,405 --> 00:00:06,406
+29. delay
+
+9
+00:00:16,443 --> 00:00:16,444
+33. Statement - selenium.click("id=join")
+
+10
+00:00:16,661 --> 00:00:16,662
+37. switchToFrame
+
+11
+00:00:16,793 --> 00:00:16,794
+41. switchToWindowIndex
+
+12
+00:00:17,455 --> 00:00:17,456
+45. delay
+
+13
+00:00:25,495 --> 00:00:25,496
+49. waitForPageLoad
+
+14
+00:00:25,546 --> 00:00:25,547
+53. Statement - selenium.type("id=firstname", "sdss")
+
+15
+00:00:25,669 --> 00:00:25,670
+57. Statement - selenium.type("id=lastname", "test")
+
+16
+00:00:25,801 --> 00:00:25,802
+61. Statement - selenium.click("id=countryCode")
+
+17
+00:00:26,074 --> 00:00:26,076
+65. Statement - selenium.select("id=countryCode", "label=Austria")
+
+18
+00:00:26,247 --> 00:00:26,249
+69. Statement - selenium.click("id=countryCode")
+
+19
+00:00:26,436 --> 00:00:26,437
+73. Statement - selenium.click("id=dob_Year")
+
+20
+00:00:26,652 --> 00:00:26,653
+77. Statement - selenium.select("id=dob_Year", "label=2005")
+
+21
+00:00:26,831 --> 00:00:26,832
+81. Statement - selenium.click("id=dob_Year")
+
+22
+00:00:27,017 --> 00:00:27,018
+85. Statement - selenium.click("id=dob_Month")
+
+23
+00:00:27,217 --> 00:00:27,219
+89. Statement - selenium.select("id=dob_Month", "label=12")
+
+24
+00:00:27,368 --> 00:00:27,369
+93. Statement - selenium.click("id=dob_Month")
+
+25
+00:00:27,544 --> 00:00:27,546
+97. Statement - selenium.click("id=dob_Day")
+
+26
+00:00:27,745 --> 00:00:27,747
+101. Statement - selenium.select("id=dob_Day", "label=18")
+
+27
+00:00:27,917 --> 00:00:27,919
+105. Statement - selenium.click("id=dob_Day")
+
+28
+00:00:28,102 --> 00:00:28,103
+109. Statement - selenium.click("id=email")
+
+29
+00:00:28,281 --> 00:00:28,282
+113. Statement - var3 = java.lang.String.valueOf(org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(1, 1))
+
+30
+00:00:28,344 --> 00:00:28,345
+117. Statement - GlobalVariable3 = var3
+
+31
+00:00:28,386 --> 00:00:28,387
+121. Statement - file = new java.io.FileInputStream(new java.io.File(C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx))
+
+32
+00:00:28,496 --> 00:00:28,497
+125. Statement - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file)
+
+33
+00:00:28,562 --> 00:00:28,563
+129. Statement - sheet = workbook.getSheetAt(0)
+
+34
+00:00:28,601 --> 00:00:28,603
+135. Read data from excel
+
+35
+00:00:28,675 --> 00:00:28,676
+141. Write data to excel
+
+36
+00:00:28,712 --> 00:00:28,713
+145. Statement - file.close()
+
+37
+00:00:28,746 --> 00:00:28,747
+149. Statement - outFile = new java.io.FileOutputStream(new java.io.File(C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx))
+
+38
+00:00:28,790 --> 00:00:28,792
+153. Statement - workbook.write(outFile)
+
+39
+00:00:29,011 --> 00:00:29,014
+157. Statement - outFile.close()
+
+40
+00:00:29,048 --> 00:00:29,049
+161. Statement - selenium.type("id=email", GlobalVariable3)
+
+41
+00:00:29,143 --> 00:00:29,144
+165. Statement - selenium.click("id=username")
+
+42
+00:00:29,310 --> 00:00:29,311
+169. Statement - var4 = java.lang.String.valueOf(org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(3, 1))
+
+43
+00:00:29,372 --> 00:00:29,373
+173. Statement - GlobalVariable4 = var4
+
+44
+00:00:29,406 --> 00:00:29,407
+177. Statement - selenium.type("id=username", GlobalVariable4)
+
+45
+00:00:29,499 --> 00:00:29,500
+181. Statement - selenium.type("id=password", "Password1!")
+
+46
+00:00:29,615 --> 00:00:29,616
+185. Statement - selenium.type("id=confirmPassword", "Password1!")
+
+47
+00:00:29,734 --> 00:00:29,735
+189. Statement - selenium.type("id=joinCaptchaAnswer", "TEST")
+
+48
+00:00:29,856 --> 00:00:29,857
+193. Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='A drawing of your favorite Planeswalker'])[2]/following::label[1]")
+
+49
+00:00:30,033 --> 00:00:30,034
+197. Statement - selenium.click("id=next")
+
+50
+00:00:30,250 --> 00:00:30,251
+201. delay
+
+51
+00:00:40,288 --> 00:00:40,288
+205. Statement - selenium.click("id=getForm")
+
+52
+00:00:40,497 --> 00:00:40,498
+209. switchToWindowUrl
+
+53
+00:00:41,672 --> 00:00:41,673
+213. delay
+
+54
+00:00:51,713 --> 00:00:51,715
+217. closeBrowser
+

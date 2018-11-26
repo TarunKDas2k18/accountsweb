@@ -1,0 +1,67 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+AccountsHealthCheck,Chrome 69.0.3497.100,,2018-09-20 11:25:48,2018-09-20 11:27:06,1m - 17.037s,PASSED
+,,,,,,
+Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount,Chrome 69.0.3497.100,,2018-09-20 11:25:49,2018-09-20 11:26:34,44.915s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 11:25:50,2018-09-20 11:25:55,5.706s,PASSED
+maximizeWindow,Chrome 69.0.3497.100,,2018-09-20 11:25:55,2018-09-20 11:25:56,1.164s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 69.0.3497.100,,2018-09-20 11:25:56,2018-09-20 11:25:57,0.045s,PASSED
+"Statement - baseUrl = ""https://webr12accounts.wizards.com/""",Chrome 69.0.3497.100,,2018-09-20 11:25:57,2018-09-20 11:25:57,0.031s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 69.0.3497.100,,2018-09-20 11:25:57,2018-09-20 11:25:57,0.173s,PASSED
+"Statement - selenium.open(""https://webr12accounts.wizards.com/"")",Chrome 69.0.3497.100,,2018-09-20 11:25:57,2018-09-20 11:25:57,0.482s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 11:25:57,2018-09-20 11:25:57,0.090s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 11:25:57,2018-09-20 11:26:07,10.055s,PASSED
+"Statement - selenium.click(""id=join"")",Chrome 69.0.3497.100,,2018-09-20 11:26:07,2018-09-20 11:26:08,0.220s,PASSED
+switchToFrame,Chrome 69.0.3497.100,,2018-09-20 11:26:08,2018-09-20 11:26:08,0.204s,PASSED
+switchToWindowIndex,Chrome 69.0.3497.100,,2018-09-20 11:26:08,2018-09-20 11:26:09,1.139s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 11:26:09,2018-09-20 11:26:17,8.036s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 11:26:17,2018-09-20 11:26:17,0.048s,PASSED
+"Statement - selenium.type(""id=firstname"", ""sdss"")",Chrome 69.0.3497.100,,2018-09-20 11:26:17,2018-09-20 11:26:17,0.119s,PASSED
+"Statement - selenium.type(""id=lastname"", ""test"")",Chrome 69.0.3497.100,,2018-09-20 11:26:17,2018-09-20 11:26:17,0.114s,PASSED
+"Statement - selenium.click(""id=dob_Year"")",Chrome 69.0.3497.100,,2018-09-20 11:26:17,2018-09-20 11:26:17,0.219s,PASSED
+"Statement - selenium.select(""id=dob_Year"", ""label=2003"")",Chrome 69.0.3497.100,,2018-09-20 11:26:17,2018-09-20 11:26:18,0.169s,PASSED
+"Statement - selenium.click(""id=dob_Year"")",Chrome 69.0.3497.100,,2018-09-20 11:26:18,2018-09-20 11:26:18,0.187s,PASSED
+"Statement - selenium.click(""id=dob_Month"")",Chrome 69.0.3497.100,,2018-09-20 11:26:18,2018-09-20 11:26:18,0.218s,PASSED
+"Statement - selenium.select(""id=dob_Month"", ""label=12"")",Chrome 69.0.3497.100,,2018-09-20 11:26:18,2018-09-20 11:26:18,0.144s,PASSED
+"Statement - selenium.click(""id=dob_Month"")",Chrome 69.0.3497.100,,2018-09-20 11:26:18,2018-09-20 11:26:18,0.147s,PASSED
+"Statement - selenium.click(""id=dob_Day"")",Chrome 69.0.3497.100,,2018-09-20 11:26:18,2018-09-20 11:26:19,0.186s,PASSED
+"Statement - selenium.select(""id=dob_Day"", ""label=18"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.159s,PASSED
+"Statement - selenium.click(""id=dob_Day"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.184s,PASSED
+"Statement - selenium.click(""id=email"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.154s,PASSED
+"Statement - selenium.type(""id=email"", ""raymantest907@test.wizards.com"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.090s,PASSED
+"Statement - selenium.click(""id=username"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.177s,PASSED
+"Statement - selenium.type(""id=username"", ""raymantest907"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.091s,PASSED
+"Statement - selenium.type(""id=password"", ""Password1!"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:19,0.108s,PASSED
+"Statement - selenium.type(""id=confirmPassword"", ""Password1!"")",Chrome 69.0.3497.100,,2018-09-20 11:26:19,2018-09-20 11:26:20,0.104s,PASSED
+"Statement - selenium.type(""id=joinCaptchaAnswer"", ""TEST"")",Chrome 69.0.3497.100,,2018-09-20 11:26:20,2018-09-20 11:26:20,0.109s,PASSED
+"Statement - selenium.click(""id=next"")",Chrome 69.0.3497.100,,2018-09-20 11:26:20,2018-09-20 11:26:20,0.188s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 11:26:20,2018-09-20 11:26:30,10.040s,PASSED
+closeBrowser,Chrome 69.0.3497.100,,2018-09-20 11:26:30,2018-09-20 11:26:31,1.417s,PASSED
+,,,,,,
+Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount,Chrome 69.0.3497.100,,2018-09-20 11:26:34,2018-09-20 11:26:44,9.969s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 11:26:34,2018-09-20 11:26:38,4.287s,PASSED
+Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(),Chrome 69.0.3497.100,,2018-09-20 11:26:38,2018-09-20 11:26:39,0.038s,PASSED
+"Statement - baseUrl = ""http://rntmailtest01/webmail/src/login.php""",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.034s,PASSED
+"Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.058s,PASSED
+"Statement - selenium.open(""http://rntmailtest01/webmail/src/login.php"")",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.130s,PASSED
+"Statement - selenium.type(""name=login_username"", ""loadtest"")",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.194s,PASSED
+"Statement - selenium.click(""//center/table"")",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.126s,PASSED
+"Statement - selenium.click(""name=secretkey"")",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.109s,PASSED
+"Statement - selenium.type(""name=secretkey"", ""Wizz0Wizz"")",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:39,0.091s,PASSED
+"Statement - selenium.click(""xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[4]"")",Chrome 69.0.3497.100,,2018-09-20 11:26:39,2018-09-20 11:26:41,1.244s,PASSED
+"Statement - selenium.selectFrame(""index=1"")",Chrome 69.0.3497.100,,2018-09-20 11:26:41,2018-09-20 11:26:41,0.061s,PASSED
+"Statement - selenium.click(""link=Wizards Account Verification"")",Chrome 69.0.3497.100,,2018-09-20 11:26:41,2018-09-20 11:26:41,0.146s,PASSED
+switchToWindowTitle,Chrome 69.0.3497.100,,2018-09-20 11:26:41,2018-09-20 11:26:41,0.069s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-20 11:26:41,2018-09-20 11:26:42,0.873s,PASSED
+,,,,,,
+Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd,Chrome 69.0.3497.100,,2018-09-20 11:26:44,2018-09-20 11:27:04,20.249s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-09-20 11:26:44,2018-09-20 11:26:49,4.776s,PASSED
+navigateToUrl,Chrome 69.0.3497.100,,2018-09-20 11:26:49,2018-09-20 11:26:50,1.349s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-20 11:26:50,2018-09-20 11:26:51,0.147s,PASSED
+delay,Chrome 69.0.3497.100,,2018-09-20 11:26:51,2018-09-20 11:26:59,8.034s,PASSED
+waitForPageLoad,Chrome 69.0.3497.100,,2018-09-20 11:26:59,2018-09-20 11:26:59,0.045s,PASSED
+switchToFrame,Chrome 69.0.3497.100,,2018-09-20 11:26:59,2018-09-20 11:26:59,0.093s,PASSED
+switchToWindowIndex,Chrome 69.0.3497.100,,2018-09-20 11:26:59,2018-09-20 11:27:00,0.945s,PASSED
+setText,Chrome 69.0.3497.100,,2018-09-20 11:27:00,2018-09-20 11:27:00,0.204s,PASSED
+setEncryptedText,Chrome 69.0.3497.100,,2018-09-20 11:27:00,2018-09-20 11:27:00,0.373s,PASSED
+focus,Chrome 69.0.3497.100,,2018-09-20 11:27:00,2018-09-20 11:27:00,0.190s,PASSED
+click,Chrome 69.0.3497.100,,2018-09-20 11:27:00,2018-09-20 11:27:02,1.378s,PASSED

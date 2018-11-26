@@ -1,0 +1,64 @@
+1
+00:00:00,373 --> 00:00:00,374
+1. openBrowser
+
+2
+00:00:04,498 --> 00:00:04,499
+5. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+3
+00:00:04,533 --> 00:00:04,534
+9. Statement - baseUrl = "http://rntmailtest01/webmail/src/login.php"
+
+4
+00:00:04,570 --> 00:00:04,572
+13. Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+5
+00:00:04,621 --> 00:00:04,622
+17. Statement - selenium.open("http://rntmailtest01/webmail/src/login.php")
+
+6
+00:00:04,755 --> 00:00:04,756
+21. Statement - selenium.type("name=login_username", "loadtest")
+
+7
+00:00:04,917 --> 00:00:04,919
+25. Statement - selenium.click("//center/table")
+
+8
+00:00:05,029 --> 00:00:05,030
+29. Statement - selenium.click("name=secretkey")
+
+9
+00:00:05,134 --> 00:00:05,135
+33. Statement - selenium.type("name=secretkey", "Wizz0Wizz")
+
+10
+00:00:05,221 --> 00:00:05,223
+37. Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[4]")
+
+11
+00:00:06,001 --> 00:00:06,002
+41. Statement - selenium.selectFrame("index=1")
+
+12
+00:00:06,052 --> 00:00:06,053
+45. Statement - selenium.click("link=Wizards Account Verification")
+
+13
+00:00:06,438 --> 00:00:06,439
+49. switchToWindowTitle
+
+14
+00:00:06,498 --> 00:00:06,499
+53. click
+
+15
+00:00:06,831 --> 00:00:06,832
+57. delay
+
+16
+00:00:20,868 --> 00:00:20,869
+61. closeBrowser
+

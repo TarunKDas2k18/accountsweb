@@ -1,0 +1,36 @@
+1
+00:00:00,607 --> 00:00:00,616
+1. openBrowser
+
+2
+00:00:23,306 --> 00:00:23,308
+5. maximizeWindow
+
+3
+00:00:24,475 --> 00:00:24,476
+9. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+4
+00:00:24,532 --> 00:00:24,534
+13. Statement - baseUrl = "https://webr20accounts.wizards.com/"
+
+5
+00:00:24,564 --> 00:00:24,566
+17. Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+6
+00:00:24,711 --> 00:00:24,713
+21. Statement - selenium.open("https://webr12accounts.wizards.com/")
+
+7
+00:00:25,345 --> 00:00:25,346
+25. waitForPageLoad
+
+8
+00:00:25,455 --> 00:00:25,457
+29. delay
+
+9
+00:00:35,524 --> 00:00:35,527
+33. Statement - selenium.click("id=join")
+

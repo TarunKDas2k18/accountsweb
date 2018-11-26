@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AccountsHealthCheck" time="115" tests="3" failures="0" errors="1">
+   <testsuite name="AccountsHealthCheck" tests="3" failures="0" errors="1" time="115" timestamp="2018-09-21 09:16:29" hostname="dast - WS-124157L.wz.hasbro.com" id="Test Suites/AccountsHealthCheck">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618"/>
+         <property name="logFiles" value="C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\execution0.log"/>
+         <property name="attachments" value="C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\1537546610166.png, C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\1537546663411.png, C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\1537546683336.png"/>
+         <property name="hostName" value="dast - WS-124157L.wz.hasbro.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="2e6378ab60a9e1d413992404bf64a709"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-09-21 09:16:30 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount
+
+2018-09-21 09:16:31 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://webr12accounts.wizards.com/'
+
+2018-09-21 09:16:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://webr12accounts.wizards.com/'
+
+2018-09-21 09:16:37 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-21 09:16:38 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-21 09:16:38 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-21 09:16:38 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://webr12accounts.wizards.com/": null
+
+2018-09-21 09:16:38 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-09-21 09:16:39 - [TEST_STEP][PASSED] - Statement - selenium.open("https://webr12accounts.wizards.com/"): null
+
+2018-09-21 09:16:39 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-21 09:16:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-21 09:16:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-21 09:16:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-21 09:16:49 - [TEST_STEP][PASSED] - Statement - selenium.click("id=join"): null
+
+2018-09-21 09:16:49 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-09-21 09:16:50 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-09-21 09:16:50 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\1537546610166.png]]
+
+2018-09-21 09:16:50 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-21 09:16:58 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-21 09:16:58 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-21 09:16:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-21 09:16:58 - [TEST_STEP][PASSED] - Statement - selenium.type("id=firstname", "sdss"): null
+
+2018-09-21 09:16:59 - [TEST_STEP][PASSED] - Statement - selenium.type("id=lastname", "test"): null
+
+2018-09-21 09:16:59 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-09-21 09:16:59 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Year", "label=2003"): null
+
+2018-09-21 09:16:59 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-09-21 09:16:59 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-09-21 09:16:59 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Month", "label=12"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Day", "label=18"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.click("id=email"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.type("id=email", "raymantest7866@test.wizards.com"): null
+
+2018-09-21 09:17:00 - [TEST_STEP][PASSED] - Statement - selenium.click("id=username"): null
+
+2018-09-21 09:17:01 - [TEST_STEP][PASSED] - Statement - selenium.type("id=username", "raymantest7866"): null
+
+2018-09-21 09:17:01 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Password1!"): null
+
+2018-09-21 09:17:01 - [TEST_STEP][PASSED] - Statement - selenium.type("id=confirmPassword", "Password1!"): null
+
+2018-09-21 09:17:01 - [TEST_STEP][PASSED] - Statement - selenium.type("id=joinCaptchaAnswer", "TEST"): null
+
+2018-09-21 09:17:01 - [TEST_STEP][PASSED] - Statement - selenium.click("id=next"): null
+
+2018-09-21 09:17:01 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-21 09:17:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-21 09:17:11 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 09:17:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" status="ERROR">
+         <error type="ERROR" message="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element link=Wizards Account Verification not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537415911675.run(Script1537415911675.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537546583225.run(TempTestSuite1537546583225.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-09-21 09:17:15 - [TEST_CASE][ERROR] - Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element link=Wizards Account Verification not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537415911675.run(Script1537415911675.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537546583225.run(TempTestSuite1537546583225.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-09-21 09:17:15 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-09-21 09:17:19 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - baseUrl = "http://rntmailtest01/webmail/src/login.php": null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium.open("http://rntmailtest01/webmail/src/login.php"): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium.type("name=login_username", "loadtest"): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium.click("//center/table"): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium.click("name=secretkey"): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium.type("name=secretkey", "Wizz0Wizz"): null
+
+2018-09-21 09:17:19 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[4]"): null
+
+2018-09-21 09:17:25 - [TEST_STEP][PASSED] - Statement - selenium.selectFrame("index=1"): null
+
+2018-09-21 09:17:25 - [TEST_STEP][PASSED] - Statement - selenium.click("link=Wizards Account Verification"): null]]></system-out>
+         <system-err><![CDATA[2018-09-21 09:17:15 - [TEST_CASE][ERROR] - Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element link=Wizards Account Verification not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537415911675.run(Script1537415911675.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537546583225.run(TempTestSuite1537546583225.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd" classname="Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd" status="PASSED">
+         <system-out><![CDATA[2018-09-21 09:17:28 - [TEST_CASE][PASSED] - Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd: Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd
+
+2018-09-21 09:17:28 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 09:17:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-21 09:17:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 09:17:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://webr12accounts.wizards.com/' successfully
+
+2018-09-21 09:17:33 - [MESSAGE][PASSED] - Navigate to 'https://webr12accounts.wizards.com/' successfully
+
+2018-09-21 09:17:33 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-21 09:17:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-21 09:17:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-09-21 09:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-09-21 09:17:35 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-21 09:17:43 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-21 09:17:43 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-21 09:17:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-21 09:17:43 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-09-21 09:17:43 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-09-21 09:17:44 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\1537546663411.png]]
+
+2018-09-21 09:17:44 - [TEST_STEP][PASSED] - setText: Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-09-21 09:17:44 - [MESSAGE][PASSED] - Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-09-21 09:17:44 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-09-21 09:17:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-09-21 09:17:45 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-09-21 09:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-09-21 09:17:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-09-21 09:17:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccLogout/AccLogout" classname="Test Cases/AccLogout/AccLogout" status="PASSED">
+         <system-out><![CDATA[2018-09-21 09:17:48 - [TEST_CASE][PASSED] - Test Cases/AccLogout/AccLogout: Test Cases/AccLogout/AccLogout
+
+2018-09-21 09:17:48 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd' successfully
+
+2018-09-21 09:17:48 - [TEST_CASE][PASSED] - Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd: Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd
+
+2018-09-21 09:17:48 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-09-21 09:17:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-09-21 09:17:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-09-21 09:17:52 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://webr12accounts.wizards.com/' successfully
+
+2018-09-21 09:17:53 - [MESSAGE][PASSED] - Navigate to 'https://webr12accounts.wizards.com/' successfully
+
+2018-09-21 09:17:53 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-21 09:17:54 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-21 09:17:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-09-21 09:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-09-21 09:17:55 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-21 09:18:03 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-21 09:18:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-21 09:18:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-21 09:18:03 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-09-21 09:18:03 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-09-21 09:18:04 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180921_091618\\1537546683336.png]]
+
+2018-09-21 09:18:04 - [TEST_STEP][PASSED] - setText: Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-09-21 09:18:04 - [MESSAGE][PASSED] - Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-09-21 09:18:04 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-09-21 09:18:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-09-21 09:18:04 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-09-21 09:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-09-21 09:18:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-09-21 09:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-09-21 09:18:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd' successfully
+
+2018-09-21 09:18:09 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' is clicked on
+
+2018-09-21 09:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' is clicked on
+
+2018-09-21 09:18:16 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-09-21 09:18:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-09-21 09:18:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-21 09:18:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-21 09:16:29 - [TEST_SUITE][ERROR] - AccountsHealthCheck: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element link=Wizards Account Verification not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537415911675.run(Script1537415911675.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537546583225.run(TempTestSuite1537546583225.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-09-21 09:16:29 - [TEST_SUITE][ERROR] - AccountsHealthCheck: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element link=Wizards Account Verification not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:77)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537415911675.run(Script1537415911675.groovy:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1537546583225.run(TempTestSuite1537546583225.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

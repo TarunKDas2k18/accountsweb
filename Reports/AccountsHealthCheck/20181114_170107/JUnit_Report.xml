@@ -1,0 +1,1252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AccountsHealthCheck" time="266" tests="4" failures="1" errors="1">
+   <testsuite name="AccountsHealthCheck" tests="4" failures="1" errors="1" time="266" timestamp="2018-11-14 17:01:13" hostname="dast - WS-124157L.wz.hasbro.com" id="Test Suites/AccountsHealthCheck">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107"/>
+         <property name="logFiles" value="C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243700576.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243790210.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243857896.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243897802.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243935322.png"/>
+         <property name="hostName" value="dast - WS-124157L.wz.hasbro.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="d6de91a45b072f68f55b8cafcec45965"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-11-14 17:01:13 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount
+
+2018-11-14 17:01:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-14 17:01:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-14 17:01:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-14 17:01:21 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 17:01:21 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-14 17:01:21 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://webr20accounts.wizards.com/": null
+
+2018-11-14 17:01:21 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-14 17:01:21 - [TEST_STEP][PASSED] - Statement - selenium.open("https://webr20accounts.wizards.com/"): null
+
+2018-11-14 17:01:24 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 17:01:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 17:01:24 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 17:01:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 17:01:34 - [TEST_STEP][PASSED] - Statement - selenium.click("id=join"): null
+
+2018-11-14 17:01:40 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-14 17:01:40 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-14 17:01:41 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243700576.png]]
+
+2018-11-14 17:01:41 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-14 17:01:49 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-14 17:01:49 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 17:01:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 17:01:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=firstname", "sdss"): null
+
+2018-11-14 17:01:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=lastname", "test"): null
+
+2018-11-14 17:01:49 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-14 17:01:50 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Year", "label=2003"): null
+
+2018-11-14 17:01:50 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-14 17:01:50 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-14 17:01:50 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Month", "label=12"): null
+
+2018-11-14 17:01:50 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-14 17:01:50 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-14 17:01:51 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Day", "label=18"): null
+
+2018-11-14 17:01:51 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-14 17:01:51 - [TEST_STEP][PASSED] - Statement - selenium.click("id=email"): null
+
+2018-11-14 17:01:51 - [TEST_STEP][PASSED] - Statement - selenium.type("id=email", org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(2, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-14 17:01:52 - [TEST_STEP][PASSED] - Statement - selenium.click("id=username"): null
+
+2018-11-14 17:01:52 - [TEST_STEP][PASSED] - Statement - selenium.type("id=username", org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(3, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-14 17:01:52 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Password1!"): null
+
+2018-11-14 17:01:52 - [TEST_STEP][PASSED] - Statement - selenium.type("id=confirmPassword", "Password1!"): null
+
+2018-11-14 17:01:53 - [TEST_STEP][PASSED] - Statement - selenium.type("id=joinCaptchaAnswer", "TEST"): null
+
+2018-11-14 17:01:53 - [TEST_STEP][PASSED] - Statement - selenium.click("id=next"): null
+
+2018-11-14 17:01:54 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 17:02:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 17:02:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-14 17:02:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-11-14 17:02:08 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount
+
+2018-11-14 17:02:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-11-14 17:02:12 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - baseUrl = "http://rntmailtest01/webmail/src/login.php": null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - selenium.open("http://rntmailtest01/webmail/src/login.php"): null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - selenium.type("name=login_username", "loadtest"): null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - selenium.click("//center/table"): null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - selenium.click("name=secretkey"): null
+
+2018-11-14 17:02:12 - [TEST_STEP][PASSED] - Statement - selenium.type("name=secretkey", "Wizz0Wizz"): null
+
+2018-11-14 17:02:13 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[4]"): null
+
+2018-11-14 17:02:13 - [TEST_STEP][PASSED] - Statement - selenium.selectFrame("index=1"): null
+
+2018-11-14 17:02:13 - [TEST_STEP][PASSED] - Statement - selenium.click("link=Wizards Account Verification"): null
+
+2018-11-14 17:02:14 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'SquirrelMail 1.4.8-5.el5.centos.10'
+
+2018-11-14 17:02:14 - [MESSAGE][PASSED] - Switched to window with title: 'SquirrelMail 1.4.8-5.el5.centos.10'
+
+2018-11-14 17:02:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccCreateNonCoppaAccount/Page_SquirrelMail 1.4.8-5.el5.cento/a_Click here to activate your' is clicked on
+
+2018-11-14 17:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/AccCreateNonCoppaAccount/Page_SquirrelMail 1.4.8-5.el5.cento/a_Click here to activate your' is clicked on
+
+2018-11-14 17:02:14 - [TEST_STEP][PASSED] - delay: Delayed 14 second(s)
+
+2018-11-14 17:02:28 - [MESSAGE][PASSED] - Delayed 14 second(s)
+
+2018-11-14 17:02:28 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-14 17:02:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount" classname="Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-11-14 17:02:32 - [TEST_CASE][PASSED] - Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount: Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount
+
+2018-11-14 17:02:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-14 17:02:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-14 17:02:50 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-14 17:02:51 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 17:02:51 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-14 17:02:51 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://webr20accounts.wizards.com/": null
+
+2018-11-14 17:02:51 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-14 17:02:51 - [TEST_STEP][PASSED] - Statement - selenium.open("https://webr20accounts.wizards.com/"): null
+
+2018-11-14 17:02:53 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 17:02:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 17:02:53 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 17:03:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 17:03:03 - [TEST_STEP][PASSED] - Statement - selenium.click("id=join"): null
+
+2018-11-14 17:03:10 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-14 17:03:10 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-14 17:03:11 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243790210.png]]
+
+2018-11-14 17:03:11 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-14 17:03:19 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-14 17:03:19 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 17:03:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 17:03:19 - [TEST_STEP][PASSED] - Statement - selenium.type("id=firstname", "sdss"): null
+
+2018-11-14 17:03:19 - [TEST_STEP][PASSED] - Statement - selenium.type("id=lastname", "test"): null
+
+2018-11-14 17:03:19 - [TEST_STEP][PASSED] - Statement - selenium.click("id=countryCode"): null
+
+2018-11-14 17:03:19 - [TEST_STEP][PASSED] - Statement - selenium.select("id=countryCode", "label=Austria"): null
+
+2018-11-14 17:03:19 - [TEST_STEP][PASSED] - Statement - selenium.click("id=countryCode"): null
+
+2018-11-14 17:03:20 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-14 17:03:20 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Year", "label=2005"): null
+
+2018-11-14 17:03:20 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-14 17:03:20 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-14 17:03:20 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Month", "label=12"): null
+
+2018-11-14 17:03:20 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Day", "label=18"): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - selenium.click("id=email"): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - var3 = java.lang.String.valueOf(org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(1, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - GlobalVariable3 = var3: null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - file = new java.io.FileInputStream(new java.io.File(C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx)): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - sheet = workbook.getSheetAt(0): null
+
+2018-11-14 17:03:21 - [TEST_STEP][PASSED] - Statement - Data_fromCell = sheet.getRow(1).getCell(1).getStringCellValue(): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - sheet.getRow(1).createCell(1).setCellValue(GlobalVariable3): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - file.close(): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - outFile = new java.io.FileOutputStream(new java.io.File(C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx)): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - workbook.write(outFile): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - outFile.close(): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=email", GlobalVariable3): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - selenium.click("id=username"): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - var4 = java.lang.String.valueOf(org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(3, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - GlobalVariable4 = var4: null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=username", GlobalVariable4): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Password1!"): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=confirmPassword", "Password1!"): null
+
+2018-11-14 17:03:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=joinCaptchaAnswer", "TEST"): null
+
+2018-11-14 17:03:23 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='A drawing of your favorite Planeswalker'])[2]/following::label[1]"): null
+
+2018-11-14 17:03:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=next"): null
+
+2018-11-14 17:03:28 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 17:03:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 17:03:38 - [TEST_STEP][PASSED] - Statement - selenium.click("id=getForm"): null
+
+2018-11-14 17:03:38 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://media.wizards.com/downloads/wizardsaccount/coppawizardsparentalconsentform_en.pdf'
+
+2018-11-14 17:03:39 - [MESSAGE][PASSED] - Switched to window with url: 'http://media.wizards.com/downloads/wizardsaccount/coppawizardsparentalconsentform_en.pdf'
+
+2018-11-14 17:03:39 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 17:03:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 17:03:49 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-14 17:03:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus" classname="Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus" status="ERROR">
+         <error type="ERROR" message="Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element id=EscrowEmail not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	... 42 more
+ (caused by: (Stack trace: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))"/>
+         <system-out><![CDATA[2018-11-14 17:03:53 - [TEST_CASE][ERROR] - Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus: Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element id=EscrowEmail not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	... 42 more
+ (caused by: (Stack trace: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))
+
+2018-11-14 17:03:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://r20-prime.wz.hasbro.com/search/Escrow'
+
+2018-11-14 17:03:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://r20-prime.wz.hasbro.com/search/Escrow'
+
+2018-11-14 17:03:58 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-14 17:03:58 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://r12-prime.wz.hasbro.com/search/Escrow": null
+
+2018-11-14 17:03:58 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-14 17:03:58 - [TEST_STEP][PASSED] - Statement - selenium.open("https://r12-prime.wz.hasbro.com/search/Escrow"): null
+
+2018-11-14 17:03:58 - [TEST_STEP][PASSED] - Statement - selenium.click("id=EscrowEmail"): null]]></system-out>
+         <system-err><![CDATA[2018-11-14 17:03:53 - [TEST_CASE][ERROR] - Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus: Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element id=EscrowEmail not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	... 42 more
+ (caused by: (Stack trace: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd" classname="Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd" status="PASSED">
+         <system-out><![CDATA[2018-11-14 17:04:00 - [TEST_CASE][PASSED] - Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd: Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd
+
+2018-11-14 17:04:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 17:04:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-14 17:04:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 17:04:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-14 17:04:06 - [MESSAGE][PASSED] - Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-14 17:04:06 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-14 17:04:07 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 17:04:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-14 17:04:09 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-14 17:04:09 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-14 17:04:17 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-14 17:04:17 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 17:04:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 17:04:17 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-14 17:04:17 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-14 17:04:18 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243857896.png]]
+
+2018-11-14 17:04:18 - [TEST_STEP][PASSED] - setText: Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-14 17:04:19 - [MESSAGE][PASSED] - Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-14 17:04:19 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-14 17:04:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-14 17:04:19 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-11-14 17:04:19 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-11-14 17:04:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-11-14 17:04:21 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-11-14 17:04:21 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-14 17:04:29 - [MESSAGE][PASSED] - Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-14 17:04:29 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/div_0test726' are matched.
+
+2018-11-14 17:04:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/div_0test726' are matched.
+
+2018-11-14 17:04:29 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-14 17:04:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-14 17:04:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-14 17:04:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccLogout/AccLogout" classname="Test Cases/AccLogout/AccLogout" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[2]/preceding::span[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536857559040.run(Script1536857559040.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-14 17:04:43 - [TEST_CASE][FAILED] - Test Cases/AccLogout/AccLogout: Test Cases/AccLogout/AccLogout FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[2]/preceding::span[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536857559040.run(Script1536857559040.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-14 17:04:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-14 17:04:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-14 17:04:47 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-14 17:04:48 - [MESSAGE][PASSED] - Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-14 17:04:48 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-14 17:04:49 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-14 17:04:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-14 17:04:49 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-14 17:04:49 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-14 17:04:57 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-14 17:04:57 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-14 17:04:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-14 17:04:57 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-14 17:04:57 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-14 17:04:58 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243897802.png]]
+
+2018-11-14 17:04:58 - [TEST_STEP][PASSED] - setText: Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-14 17:04:58 - [MESSAGE][PASSED] - Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-14 17:04:58 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-14 17:04:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-14 17:04:59 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-11-14 17:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is focused
+
+2018-11-14 17:04:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-11-14 17:05:02 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login (1)' is clicked on
+
+2018-11-14 17:05:02 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-14 17:05:04 - [MESSAGE][PASSED] - Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-14 17:05:04 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/div_0test726' are matched.
+
+2018-11-14 17:05:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/div_0test726' are matched.
+
+2018-11-14 17:05:04 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[2]/preceding::span[1]' not found)
+
+2018-11-14 17:05:36 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[2]/preceding::span[1]' not found)
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181114_170107\\1542243935322.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-14 17:04:43 - [TEST_CASE][FAILED] - Test Cases/AccLogout/AccLogout: Test Cases/AccLogout/AccLogout FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[2]/preceding::span[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$6.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1536857559040.run(Script1536857559040.groovy:60)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-14 17:01:13 - [TEST_SUITE][ERROR] - AccountsHealthCheck: Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element id=EscrowEmail not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	... 42 more
+ (caused by: (Stack trace: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))]]></system-out>
+      <system-err><![CDATA[2018-11-14 17:01:13 - [TEST_SUITE][ERROR] - AccountsHealthCheck: Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus FAILED because (of) (Stack trace: com.thoughtworks.selenium.SeleniumException: Element id=EscrowEmail not found
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:93)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	... 42 more
+ (caused by: (Stack trace: org.openqa.selenium.WebDriverException: unknown error: Element id=EscrowEmail not found
+  (Session info: chrome=70.0.3538.102)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.16299 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'WS-124157L', ip: '192.168.99.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\dast\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:6689}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: 4b47479c921258961ba3234d96ff04f1
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:20)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:536)
+	at com.thoughtworks.selenium.webdriven.ElementFinder.findElement(ElementFinder.java:91)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:39)
+	at com.thoughtworks.selenium.webdriven.commands.Click.handleSeleneseCommand(Click.java:26)
+	at com.thoughtworks.selenium.webdriven.SeleneseCommand.apply(SeleneseCommand.java:36)
+	at com.thoughtworks.selenium.webdriven.Timer.run(Timer.java:41)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.execute(WebDriverCommandProcessor.java:150)
+	at com.thoughtworks.selenium.webdriven.WebDriverCommandProcessor.doCommand(WebDriverCommandProcessor.java:76)
+	at com.thoughtworks.selenium.DefaultSelenium.click(DefaultSelenium.java:198)
+	at com.thoughtworks.selenium.Selenium$click$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at Script1537539724751.run(Script1537539724751.groovy:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542243671613.run(TempTestSuite1542243671613.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)))]]></system-err>
+   </testsuite>
+</testsuites>

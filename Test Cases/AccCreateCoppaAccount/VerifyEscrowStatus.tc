@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>VerifyEscrowStatus</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>35044044</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>VerifyEscrowStatus</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-20889</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>26354584</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5570462</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>ab710534-973e-4d5b-8d46-61b862c8e6ef</testCaseGuid>
+</TestCaseEntity>

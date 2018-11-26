@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccCreateNonCoppaAccount</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>35044045</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>AccCreateNonCoppaAccount</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-20890</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>26354585</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5570463</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>baba1196-e456-4e88-ae94-fd124d4eb64c</testCaseGuid>
+</TestCaseEntity>

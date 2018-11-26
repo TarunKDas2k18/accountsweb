@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccLoginValidLoginValidPwd</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>35044047</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>AccLoginValidLoginValidPwd</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-20892</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>26354587</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>5570464</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>8fb4ed83-373a-414a-bfa5-89de29c94c7f</testCaseGuid>
+</TestCaseEntity>

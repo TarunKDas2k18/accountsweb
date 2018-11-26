@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AccountsHealthCheck" time="280" tests="6" failures="0" errors="0">
+   <testsuite name="AccountsHealthCheck" tests="6" failures="0" errors="0" time="280" timestamp="2018-11-15 11:08:11" hostname="dast - WS-124157L.wz.hasbro.com" id="Test Suites/AccountsHealthCheck">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804"/>
+         <property name="logFiles" value="C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\execution0.log"/>
+         <property name="attachments" value="C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542308953171.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542309037143.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542309115324.png, C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542309150820.png"/>
+         <property name="hostName" value="dast - WS-124157L.wz.hasbro.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Chrome 70.0.3538.102"/>
+         <property name="hostAddress" value="192.168.99.1"/>
+         <property name="sessionId" value="f30010a5927a65e7fa00ad720653b9fc"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:08:11 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount
+
+2018-11-15 11:08:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-15 11:08:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-15 11:08:52 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 11:08:53 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 11:08:53 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-15 11:08:53 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://webr20accounts.wizards.com/": null
+
+2018-11-15 11:08:53 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-15 11:08:53 - [TEST_STEP][PASSED] - Statement - selenium.open("https://webr20accounts.wizards.com/"): null
+
+2018-11-15 11:08:56 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 11:08:56 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 11:08:56 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:09:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:09:06 - [TEST_STEP][PASSED] - Statement - selenium.click("id=join"): null
+
+2018-11-15 11:09:12 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-15 11:09:13 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-15 11:09:14 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542308953171.png]]
+
+2018-11-15 11:09:14 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-15 11:09:22 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-15 11:09:22 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 11:09:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 11:09:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=firstname", "sdss"): null
+
+2018-11-15 11:09:22 - [TEST_STEP][PASSED] - Statement - selenium.type("id=lastname", "test"): null
+
+2018-11-15 11:09:22 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-15 11:09:22 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Year", "label=2003"): null
+
+2018-11-15 11:09:22 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-15 11:09:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-15 11:09:23 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Month", "label=12"): null
+
+2018-11-15 11:09:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-15 11:09:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-15 11:09:23 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Day", "label=18"): null
+
+2018-11-15 11:09:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-15 11:09:24 - [TEST_STEP][PASSED] - Statement - selenium.click("id=email"): null
+
+2018-11-15 11:09:24 - [TEST_STEP][PASSED] - Statement - selenium.type("id=email", org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(2, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-15 11:09:25 - [TEST_STEP][PASSED] - Statement - selenium.click("id=username"): null
+
+2018-11-15 11:09:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=username", org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(3, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-15 11:09:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Password1!"): null
+
+2018-11-15 11:09:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=confirmPassword", "Password1!"): null
+
+2018-11-15 11:09:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=joinCaptchaAnswer", "TEST"): null
+
+2018-11-15 11:09:25 - [TEST_STEP][PASSED] - Statement - selenium.click("id=next"): null
+
+2018-11-15 11:09:30 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:09:40 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:09:40 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:09:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:09:44 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount
+
+2018-11-15 11:09:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-11-15 11:09:49 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - baseUrl = "http://rntmailtest01/webmail/src/login.php": null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium.open("http://rntmailtest01/webmail/src/login.php"): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium.type("name=login_username", "loadtest"): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium.click("//center/table"): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium.click("name=secretkey"): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium.type("name=secretkey", "Wizz0Wizz"): null
+
+2018-11-15 11:09:49 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[4]"): null
+
+2018-11-15 11:09:50 - [TEST_STEP][PASSED] - Statement - selenium.selectFrame("index=1"): null
+
+2018-11-15 11:09:50 - [TEST_STEP][PASSED] - Statement - selenium.click("link=Wizards Account Verification"): null
+
+2018-11-15 11:09:50 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'SquirrelMail 1.4.8-5.el5.centos.10'
+
+2018-11-15 11:09:51 - [MESSAGE][PASSED] - Switched to window with title: 'SquirrelMail 1.4.8-5.el5.centos.10'
+
+2018-11-15 11:09:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccCreateNonCoppaAccount/Page_SquirrelMail 1.4.8-5.el5.cento/a_Click here to activate your' is clicked on
+
+2018-11-15 11:09:51 - [MESSAGE][PASSED] - Object: 'Object Repository/AccCreateNonCoppaAccount/Page_SquirrelMail 1.4.8-5.el5.cento/a_Click here to activate your' is clicked on
+
+2018-11-15 11:09:51 - [TEST_STEP][PASSED] - delay: Delayed 14 second(s)
+
+2018-11-15 11:10:05 - [MESSAGE][PASSED] - Delayed 14 second(s)
+
+2018-11-15 11:10:05 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:10:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount" classname="Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:10:09 - [TEST_CASE][PASSED] - Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount: Test Cases/AccCreateCoppaAccount/AccCreateCoppaAccount
+
+2018-11-15 11:10:09 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-15 11:10:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://webr20accounts.wizards.com/'
+
+2018-11-15 11:10:19 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 11:10:20 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 11:10:20 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-15 11:10:20 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://webr20accounts.wizards.com/": null
+
+2018-11-15 11:10:20 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-15 11:10:20 - [TEST_STEP][PASSED] - Statement - selenium.open("https://webr20accounts.wizards.com/"): null
+
+2018-11-15 11:10:20 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 11:10:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 11:10:20 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:10:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:10:30 - [TEST_STEP][PASSED] - Statement - selenium.click("id=join"): null
+
+2018-11-15 11:10:37 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-15 11:10:37 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-15 11:10:38 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542309037143.png]]
+
+2018-11-15 11:10:38 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-15 11:10:46 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-15 11:10:46 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 11:10:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 11:10:46 - [TEST_STEP][PASSED] - Statement - selenium.type("id=firstname", "sdss"): null
+
+2018-11-15 11:10:46 - [TEST_STEP][PASSED] - Statement - selenium.type("id=lastname", "test"): null
+
+2018-11-15 11:10:46 - [TEST_STEP][PASSED] - Statement - selenium.click("id=countryCode"): null
+
+2018-11-15 11:10:46 - [TEST_STEP][PASSED] - Statement - selenium.select("id=countryCode", "label=Austria"): null
+
+2018-11-15 11:10:46 - [TEST_STEP][PASSED] - Statement - selenium.click("id=countryCode"): null
+
+2018-11-15 11:10:47 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-15 11:10:47 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Year", "label=2005"): null
+
+2018-11-15 11:10:47 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-11-15 11:10:47 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-15 11:10:47 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Month", "label=12"): null
+
+2018-11-15 11:10:47 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Day", "label=18"): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - selenium.click("id=email"): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - var3 = java.lang.String.valueOf(org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(1, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - GlobalVariable3 = var3: null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - file = new java.io.FileInputStream(new java.io.File(C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx)): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - workbook = new org.apache.poi.xssf.usermodel.XSSFWorkbook(file): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - sheet = workbook.getSheetAt(0): null
+
+2018-11-15 11:10:48 - [TEST_STEP][PASSED] - Statement - Data_fromCell = sheet.getRow(1).getCell(1).getStringCellValue(): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - sheet.getRow(1).createCell(1).setCellValue(GlobalVariable3): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - file.close(): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - outFile = new java.io.FileOutputStream(new java.io.File(C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx)): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - workbook.write(outFile): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - outFile.close(): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=email", GlobalVariable3): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - selenium.click("id=username"): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - var4 = java.lang.String.valueOf(org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(3, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail.xlsx' and sheet name 'Sheet1'
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - GlobalVariable4 = var4: null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=username", GlobalVariable4): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Password1!"): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=confirmPassword", "Password1!"): null
+
+2018-11-15 11:10:49 - [TEST_STEP][PASSED] - Statement - selenium.type("id=joinCaptchaAnswer", "TEST"): null
+
+2018-11-15 11:10:50 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='A drawing of your favorite Planeswalker'])[2]/following::label[1]"): null
+
+2018-11-15 11:10:50 - [TEST_STEP][PASSED] - Statement - selenium.click("id=next"): null
+
+2018-11-15 11:10:53 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:11:03 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:11:03 - [TEST_STEP][PASSED] - Statement - selenium.click("id=getForm"): null
+
+2018-11-15 11:11:03 - [TEST_STEP][PASSED] - switchToWindowUrl: Switched to window with url: 'http://media.wizards.com/downloads/wizardsaccount/coppawizardsparentalconsentform_en.pdf'
+
+2018-11-15 11:11:04 - [MESSAGE][PASSED] - Switched to window with url: 'http://media.wizards.com/downloads/wizardsaccount/coppawizardsparentalconsentform_en.pdf'
+
+2018-11-15 11:11:04 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:11:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:11:14 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:11:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus" classname="Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:11:18 - [TEST_CASE][PASSED] - Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus: Test Cases/AccCreateCoppaAccount/VerifyEscrowStatus
+
+2018-11-15 11:11:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://r20-prime.wz.hasbro.com/search/Escrow'
+
+2018-11-15 11:11:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://r20-prime.wz.hasbro.com/search/Escrow'
+
+2018-11-15 11:11:23 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-11-15 11:11:23 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://r20-prime.wz.hasbro.com/search/Escrow": null
+
+2018-11-15 11:11:23 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-11-15 11:11:23 - [TEST_STEP][PASSED] - Statement - selenium.open("https://r20-prime.wz.hasbro.com/search/Escrow"): null
+
+2018-11-15 11:11:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=EscrowEmail"): null
+
+2018-11-15 11:11:24 - [TEST_STEP][PASSED] - Statement - selenium.type("id=EscrowEmail", com.kms.katalon.core.testdata.TestDataFactory.findTestData(EscrowInputData).getValue(2, 1)): Reading excel file with source file 'C:\WZ\New folder\AccountsHealthCheck\AccountsHealthCheck\Data Files\InputEmail1.xlsx' and sheet name 'Sheet1'
+
+2018-11-15 11:11:24 - [TEST_STEP][PASSED] - Statement - selenium.click("id=Escrowsubmit"): null
+
+2018-11-15 11:11:24 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AccCreateCoppaAccount/Page_Escrow/td_Coppa' is visible
+
+2018-11-15 11:11:25 - [MESSAGE][PASSED] - Object 'Object Repository/AccCreateCoppaAccount/Page_Escrow/td_Coppa' is visible
+
+2018-11-15 11:11:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AccCreateCoppaAccount/Page_Escrow/td_Coppa' are matched.
+
+2018-11-15 11:11:25 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AccCreateCoppaAccount/Page_Escrow/td_Coppa' are matched.
+
+2018-11-15 11:11:25 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:11:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:11:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:11:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd" classname="Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:11:39 - [TEST_CASE][PASSED] - Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd: Test Cases/AccLoginValidLoginValidPwd/AccLoginValidLoginValidPwd
+
+2018-11-15 11:11:39 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 11:11:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 11:11:42 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-15 11:11:45 - [MESSAGE][PASSED] - Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-15 11:11:45 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 11:11:46 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 11:11:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-15 11:11:47 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-15 11:11:47 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-15 11:11:55 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-15 11:11:55 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 11:11:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 11:11:55 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-15 11:11:55 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-15 11:11:56 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542309115324.png]]
+
+2018-11-15 11:11:56 - [TEST_STEP][PASSED] - setText: Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-15 11:11:56 - [MESSAGE][PASSED] - Text '0test726' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-15 11:11:56 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-15 11:11:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-15 11:11:56 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is focused
+
+2018-11-15 11:11:56 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is focused
+
+2018-11-15 11:11:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is clicked on
+
+2018-11-15 11:11:57 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is clicked on
+
+2018-11-15 11:11:57 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-15 11:12:02 - [MESSAGE][PASSED] - Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-15 11:12:02 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/div_0test726' are matched.
+
+2018-11-15 11:12:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/div_0test726' are matched.
+
+2018-11-15 11:12:02 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-11-15 11:12:12 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-11-15 11:12:12 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:12:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccLogout/AccLogout" classname="Test Cases/AccLogout/AccLogout" status="PASSED">
+         <system-out><![CDATA[2018-11-15 11:12:16 - [TEST_CASE][PASSED] - Test Cases/AccLogout/AccLogout: Test Cases/AccLogout/AccLogout
+
+2018-11-15 11:12:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-15 11:12:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-15 11:12:19 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-15 11:12:20 - [MESSAGE][PASSED] - Navigate to 'https://webr20accounts.wizards.com/' successfully
+
+2018-11-15 11:12:20 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-15 11:12:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-15 11:12:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-15 11:12:22 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login' is clicked on
+
+2018-11-15 11:12:22 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-15 11:12:30 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-15 11:12:30 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-11-15 11:12:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-11-15 11:12:30 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-11-15 11:12:30 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-11-15 11:12:31 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\Katalon Automation\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20181115_110804\\1542309150820.png]]
+
+2018-11-15 11:12:31 - [TEST_STEP][PASSED] - setText: Text 'RafaelTest' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-15 11:12:32 - [MESSAGE][PASSED] - Text 'RafaelTest' is set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Login ID_username'
+
+2018-11-15 11:12:32 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-15 11:12:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/input_Password_password'
+
+2018-11-15 11:12:32 - [TEST_STEP][PASSED] - focus: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is focused
+
+2018-11-15 11:12:32 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is focused
+
+2018-11-15 11:12:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is clicked on
+
+2018-11-15 11:12:35 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLoginValidLoginValidPwd/Page_Create Your Wizards Account/button_Login _LogOut' is clicked on
+
+2018-11-15 11:12:35 - [TEST_STEP][PASSED] - verifyElementVisible: Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-15 11:12:39 - [MESSAGE][PASSED] - Object 'Object Repository/AccLoginValidLoginValidPwd/Page_Account Details/label_Screen Name' is visible
+
+2018-11-15 11:12:39 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/AccLogout/Page_Account Details/div_Rafael Test' are matched.
+
+2018-11-15 11:12:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/AccLogout/Page_Account Details/div_Rafael Test' are matched.
+
+2018-11-15 11:12:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out ' is clicked on
+
+2018-11-15 11:12:39 - [MESSAGE][PASSED] - Object: 'Object Repository/AccLogout/Page_Account Details/span_Sign Out ' is clicked on
+
+2018-11-15 11:12:39 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-11-15 11:12:47 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-11-15 11:12:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-15 11:12:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-15 11:08:11 - [TEST_SUITE][PASSED] - AccountsHealthCheck: Test Cases/AccLogout/AccLogout]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

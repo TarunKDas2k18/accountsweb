@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportEntity>
+   <description></description>
+   <name>20180920_102329</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>0</key>
+            <value>{'name':'AccCreateNonCoppaAccount','attachmentIncluded':true,'id':70862748}</value>
+         </entry>
+         <entry>
+            <key>1</key>
+            <value>{'name':'squirrelmailNonCoppaAccount','attachmentIncluded':true,'id':70862753}</value>
+         </entry>
+      </properties>
+      <type>REPORT</type>
+   </integratedEntity>
+   <displayName>20180920_102329</displayName>
+</ReportEntity>

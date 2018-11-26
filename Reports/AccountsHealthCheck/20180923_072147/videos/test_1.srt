@@ -1,0 +1,136 @@
+1
+00:00:00,546 --> 00:00:00,551
+1. openBrowser
+
+2
+00:00:05,938 --> 00:00:05,941
+5. maximizeWindow
+
+3
+00:00:07,127 --> 00:00:07,129
+9. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+4
+00:00:07,167 --> 00:00:07,169
+13. Statement - baseUrl = "https://webr12accounts.wizards.com/"
+
+5
+00:00:07,200 --> 00:00:07,202
+17. Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+6
+00:00:07,332 --> 00:00:07,333
+21. Statement - selenium.open("https://webr12accounts.wizards.com/")
+
+7
+00:00:08,751 --> 00:00:08,752
+25. waitForPageLoad
+
+8
+00:00:08,860 --> 00:00:08,862
+29. delay
+
+9
+00:00:18,929 --> 00:00:18,930
+33. Statement - selenium.click("id=join")
+
+10
+00:00:19,146 --> 00:00:19,148
+37. switchToFrame
+
+11
+00:00:19,275 --> 00:00:19,276
+41. switchToWindowIndex
+
+12
+00:00:19,852 --> 00:00:19,853
+45. delay
+
+13
+00:00:27,888 --> 00:00:27,889
+49. waitForPageLoad
+
+14
+00:00:27,937 --> 00:00:27,939
+53. Statement - selenium.type("id=firstname", "sdss")
+
+15
+00:00:28,059 --> 00:00:28,060
+57. Statement - selenium.type("id=lastname", "test")
+
+16
+00:00:28,172 --> 00:00:28,174
+61. Statement - selenium.click("id=dob_Year")
+
+17
+00:00:28,390 --> 00:00:28,391
+65. Statement - selenium.select("id=dob_Year", "label=2003")
+
+18
+00:00:28,540 --> 00:00:28,541
+69. Statement - selenium.click("id=dob_Year")
+
+19
+00:00:28,714 --> 00:00:28,715
+73. Statement - selenium.click("id=dob_Month")
+
+20
+00:00:28,930 --> 00:00:28,931
+77. Statement - selenium.select("id=dob_Month", "label=12")
+
+21
+00:00:29,083 --> 00:00:29,085
+81. Statement - selenium.click("id=dob_Month")
+
+22
+00:00:29,234 --> 00:00:29,235
+85. Statement - selenium.click("id=dob_Day")
+
+23
+00:00:29,421 --> 00:00:29,422
+89. Statement - selenium.select("id=dob_Day", "label=18")
+
+24
+00:00:29,573 --> 00:00:29,575
+93. Statement - selenium.click("id=dob_Day")
+
+25
+00:00:29,745 --> 00:00:29,746
+97. Statement - selenium.click("id=email")
+
+26
+00:00:29,910 --> 00:00:29,911
+101. Statement - selenium.type("id=email", org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(2, 1))
+
+27
+00:00:30,740 --> 00:00:30,741
+105. Statement - selenium.click("id=username")
+
+28
+00:00:30,939 --> 00:00:30,940
+109. Statement - selenium.type("id=username", org.apache.commons.lang.RandomStringUtils.randomNumeric(5) + com.kms.katalon.core.testdata.TestDataFactory.findTestData(InputData).getValue(3, 1))
+
+29
+00:00:31,073 --> 00:00:31,074
+113. Statement - selenium.type("id=password", "Password1!")
+
+30
+00:00:31,188 --> 00:00:31,189
+117. Statement - selenium.type("id=confirmPassword", "Password1!")
+
+31
+00:00:31,289 --> 00:00:31,291
+121. Statement - selenium.type("id=joinCaptchaAnswer", "TEST")
+
+32
+00:00:31,388 --> 00:00:31,389
+125. Statement - selenium.click("id=next")
+
+33
+00:00:31,561 --> 00:00:31,562
+129. delay
+
+34
+00:00:41,598 --> 00:00:41,599
+133. closeBrowser
+

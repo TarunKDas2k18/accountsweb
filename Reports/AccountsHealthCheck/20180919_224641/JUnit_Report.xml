@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AccountsHealthCheck" time="56" tests="2" failures="0" errors="0">
+   <testsuite name="AccountsHealthCheck" tests="2" failures="0" errors="0" time="56" timestamp="2018-09-19 22:46:52" hostname="dast - WS-124157L.wz.hasbro.com" id="Test Suites/AccountsHealthCheck">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180919_224641"/>
+         <property name="logFiles" value="C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180919_224641\\execution0.log"/>
+         <property name="attachments" value="C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180919_224641\\1537422434553.png"/>
+         <property name="hostName" value="dast - WS-124157L.wz.hasbro.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 68.0.3440.106"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="032420128e51d71ebc54f837377f0e05"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-09-19 22:46:53 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/AccCreateNonCoppaAccount
+
+2018-09-19 22:46:54 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://webr12accounts.wizards.com/'
+
+2018-09-19 22:47:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://webr12accounts.wizards.com/'
+
+2018-09-19 22:47:02 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-09-19 22:47:03 - [MESSAGE][PASSED] - Current window maximized
+
+2018-09-19 22:47:03 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-19 22:47:03 - [TEST_STEP][PASSED] - Statement - baseUrl = "https://webr12accounts.wizards.com/": null
+
+2018-09-19 22:47:03 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-09-19 22:47:03 - [TEST_STEP][PASSED] - Statement - selenium.open("https://webr12accounts.wizards.com/"): null
+
+2018-09-19 22:47:03 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-19 22:47:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-19 22:47:03 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-19 22:47:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-19 22:47:14 - [TEST_STEP][PASSED] - Statement - selenium.click("id=join"): null
+
+2018-09-19 22:47:14 - [TEST_STEP][PASSED] - switchToFrame: Switched to iframe: 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'
+
+2018-09-19 22:47:14 - [TEST_STEP][PASSED] - switchToWindowIndex: Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+
+2018-09-19 22:47:15 - [MESSAGE][WARNING] - Unable to switch to window with index: 'TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'' (Root cause: java.lang.NumberFormatException: For input string: "TestObject - 'Object Repository/AccCreateNonCoppaAccount/iframe_wotcAccountWidgetModalIframe'")
+[[ATTACHMENT|C:\\WZ\\New folder\\AccountsHealthCheck\\AccountsHealthCheck\\Reports\\AccountsHealthCheck\\20180919_224641\\1537422434553.png]]
+
+2018-09-19 22:47:15 - [TEST_STEP][PASSED] - delay: Delayed 8 second(s)
+
+2018-09-19 22:47:23 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-09-19 22:47:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - Statement - selenium.type("id=firstname", "sdss"): null
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - Statement - selenium.type("id=lastname", "test"): null
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Year", "label=2003"): null
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Year"): null
+
+2018-09-19 22:47:23 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-09-19 22:47:24 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Month", "label=12"): null
+
+2018-09-19 22:47:24 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Month"): null
+
+2018-09-19 22:47:24 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-09-19 22:47:24 - [TEST_STEP][PASSED] - Statement - selenium.select("id=dob_Day", "label=18"): null
+
+2018-09-19 22:47:24 - [TEST_STEP][PASSED] - Statement - selenium.click("id=dob_Day"): null
+
+2018-09-19 22:47:24 - [TEST_STEP][PASSED] - Statement - selenium.click("id=email"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=email", "raymantest902@test.wizards.com"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.click("id=username"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=username", "raymantest902"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=password", "Password1!"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=confirmPassword", "Password1!"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.type("id=joinCaptchaAnswer", "TEST"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - Statement - selenium.click("id=next"): null
+
+2018-09-19 22:47:25 - [TEST_STEP][PASSED] - delay: Delayed 10 second(s)
+
+2018-09-19 22:47:35 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-09-19 22:47:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-09-19 22:47:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" classname="Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount" status="PASSED">
+         <system-out><![CDATA[2018-09-19 22:47:39 - [TEST_CASE][PASSED] - Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount
+
+2018-09-19 22:47:40 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-09-19 22:47:43 - [MESSAGE][PASSED] - Browser is opened with url: 'http://rntmailtest01/webmail/src/login.php'
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver(): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - baseUrl = "http://rntmailtest01/webmail/src/login.php": null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium.open("http://rntmailtest01/webmail/src/login.php"): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium.type("name=login_username", "loadtest"): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium.click("//center/table"): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium.click("name=secretkey"): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium.type("name=secretkey", "Wizz0Wizz"): null
+
+2018-09-19 22:47:43 - [TEST_STEP][PASSED] - Statement - selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[1]/following::input[4]"): null
+
+2018-09-19 22:47:45 - [TEST_STEP][PASSED] - Statement - selenium.selectFrame("index=1"): null
+
+2018-09-19 22:47:45 - [TEST_STEP][PASSED] - Statement - selenium.click("link=Wizards Account Verification"): null
+
+2018-09-19 22:47:45 - [TEST_STEP][PASSED] - switchToWindowTitle: Switched to window with title: 'SquirrelMail 1.4.8-5.el5.centos.10'
+
+2018-09-19 22:47:45 - [MESSAGE][PASSED] - Switched to window with title: 'SquirrelMail 1.4.8-5.el5.centos.10'
+
+2018-09-19 22:47:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/AccCreateNonCoppaAccount/Page_SquirrelMail 1.4.8-5.el5.cento/a_Click here to activate your' is clicked on
+
+2018-09-19 22:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/AccCreateNonCoppaAccount/Page_SquirrelMail 1.4.8-5.el5.cento/a_Click here to activate your' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-09-19 22:46:52 - [TEST_SUITE][PASSED] - AccountsHealthCheck: Test Cases/AccCreateNonCoppaAccount/squirrelmailNonCoppaAccount]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

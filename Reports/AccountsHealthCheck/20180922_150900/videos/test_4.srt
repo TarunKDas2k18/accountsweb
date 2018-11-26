@@ -1,0 +1,48 @@
+1
+00:00:00,315 --> 00:00:00,315
+1. openBrowser
+
+2
+00:00:09,309 --> 00:00:09,316
+5. Statement - driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+
+3
+00:00:09,348 --> 00:00:09,349
+9. Statement - baseUrl = "https://r12-prime.wz.hasbro.com/search/Escrow"
+
+4
+00:00:09,381 --> 00:00:09,382
+13. Statement - selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+5
+00:00:09,423 --> 00:00:09,424
+17. Statement - selenium.open("https://r12-prime.wz.hasbro.com/search/Escrow")
+
+6
+00:00:09,791 --> 00:00:09,792
+21. Statement - selenium.click("id=EscrowEmail")
+
+7
+00:00:09,965 --> 00:00:09,966
+25. Statement - selenium.type("id=EscrowEmail", com.kms.katalon.core.testdata.TestDataFactory.findTestData(EscrowInputData).getValue(2, 1))
+
+8
+00:00:10,094 --> 00:00:10,095
+29. Statement - selenium.click("id=Escrowsubmit")
+
+9
+00:00:10,248 --> 00:00:10,249
+33. verifyElementVisible
+
+10
+00:00:12,921 --> 00:00:12,922
+37. verifyElementText
+
+11
+00:00:13,416 --> 00:00:13,417
+41. delay
+
+12
+00:00:23,451 --> 00:00:23,452
+45. closeBrowser
+
